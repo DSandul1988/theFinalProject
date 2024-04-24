@@ -1,0 +1,27 @@
+"use client";
+
+import Modal1 from "@/app/Components/Modals/Modal1";
+
+import Image from "next/image";
+
+interface ImageModalProps {
+  isOpen?: boolean;
+  onClose: () => void;
+  src?: string | null;
+}
+
+const ImageModal: React.FC<ImageModalProps> = ({ isOpen, onClose, src }) => {
+  if (!src) {
+    return null;
+  }
+
+  return (
+    <Modal1 isOpen={isOpen} onClose={onClose}>
+      <div className="w-80 h-80">
+        <Image className="object-cover" fill alt="Image" src={src} />
+      </div>
+    </Modal1>
+  );
+};
+
+export default ImageModal;

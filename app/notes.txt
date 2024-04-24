@@ -1,0 +1,21 @@
+Tailwind auto prefixer i D 
+react icons 
+zustand
+axios
+
+ react-hook-form
+prisma
+bcrypt
+query-string
+ world-countries
+ select react 
+leaflet
+react leaflet
+
+next-cloudinary
+date-fns
+pusher
+clsx
+headlessui/react
+nodemailer
+chad cn ui 
